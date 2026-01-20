@@ -1,0 +1,89 @@
+/* Main container */
+.Container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.Container h1 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Input + button box */
+.Inputbox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input field */
+.Inputbox input {
+  width: 230px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Input focus */
+.Inputbox input:focus {
+  border-color:#007bff ;
+}
+
+/* Add button */
+.Add {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Add hover */
+.Add:hover {
+  background-color: #0056b3;
+}
+
+/* Task list */
+ul {
+  list-style: none;
+  padding: 0;
+  width: 320px;
+}
+
+/* Each task */
+li {
+  background: white;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Delete button */
+li button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Delete hover */
+li button:hover {
+  background-color: #b52a37;
+}
